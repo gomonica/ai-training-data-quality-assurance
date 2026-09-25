@@ -9,17 +9,17 @@ The goal is to ensure that different annotators assign consistent labels to simi
 
 The dataset contains six intent categories:
 
-order_tracking
+- order_tracking
 
-delivery_issue
+- delivery_issue
 
-refund_request
+- refund_request
 
-cancellation
+- cancellation
 
-product_complaint
+- product_complaint
 
-general_question
+- general_question
 
 ### 3. Label Definitions
 ### 3.1 order_tracking
