@@ -1,11 +1,11 @@
-Customer Support Intent Annotation Guidelines
-1. Purpose
+## Customer Support Intent Annotation Guidelines
+### 1. Purpose
 
 This guideline defines how to classify customer support messages into predefined intent categories.
 
 The goal is to ensure that different annotators assign consistent labels to similar customer messages.
 
-2. Intent Categories
+### 2. Intent Categories
 
 The dataset contains six intent categories:
 
@@ -21,8 +21,8 @@ product_complaint
 
 general_question
 
-3. Label Definitions
-3.1 order_tracking
+### 3. Label Definitions
+### 3.1 order_tracking
 
 Use order_tracking when the customer wants to know the status, location, or current progress of an order.
 
@@ -36,7 +36,7 @@ Examples:
 
 Do not use this label when the customer is reporting that the delivery is late or has failed.
 
-3.2 delivery_issue
+### 3.2 delivery_issue
 
 Use delivery_issue when the customer reports a problem with the delivery, such as a late, missing, or failed delivery.
 
@@ -48,7 +48,7 @@ Examples:
 
 "My package hasn't arrived yet."
 
-3.3 refund_request
+### 3.3 refund_request
 
 Use refund_request when the customer explicitly asks for their money back or requests a refund.
 
@@ -60,7 +60,7 @@ Examples:
 
 "I'd like to request a refund."
 
-3.4 cancellation
+### 3.4 cancellation
 
 Use cancellation when the customer wants to cancel an order.
 
@@ -72,7 +72,7 @@ Examples:
 
 "Can you cancel order #12345?"
 
-3.5 product_complaint
+### 3.5 product_complaint
 
 Use product_complaint when the customer reports a problem with the product itself, such as damage, defects, or poor product quality.
 
@@ -84,7 +84,7 @@ Examples:
 
 "The product doesn't work."
 
-3.6 general_question
+### 3.6 general_question
 
 Use general_question when the customer asks a general question that does not fit the other five categories.
 
@@ -96,28 +96,28 @@ Examples:
 
 "What are your business hours?"
 
-4. General Annotation Rules
-Rule 1: Focus on the customer's main intent
+### 4. General Annotation Rules
+### Rule 1: Focus on the customer's main intent
 
 Choose the label that best represents what the customer is primarily trying to achieve.
 
-Rule 2: Look for explicit requests
+### Rule 2: Look for explicit requests
 
 If the customer explicitly asks for a refund, use refund_request.
 
 If the customer explicitly asks to cancel an order, use cancellation.
 
-Rule 3: Distinguish tracking from delivery problems
+### Rule 3: Distinguish tracking from delivery problems
 
 Use order_tracking when the customer is simply asking about the status or location of an order.
 
 Use delivery_issue when the customer reports that the delivery is late, missing, or unsuccessful.
 
-Rule 4: Product problems take priority when the issue is about the product
+### Rule 4: Product problems take priority when the issue is about the product
 
 If the customer reports that the product is damaged, broken, or defective, use product_complaint.
 
-5. Ambiguous Cases
+### 5. Ambiguous Cases
 
 Some messages may contain more than one possible intent.
 
@@ -147,7 +147,7 @@ Therefore:
 
 refund_request
 
-6. Annotation Quality Principles
+### 6. Annotation Quality Principles
 
 Annotators should:
 
@@ -161,7 +161,7 @@ Use the most specific applicable label.
 
 Flag unclear cases for review instead of guessing when the intent cannot be determined confidently.
 
-7. Quality Check
+### 7. Quality Check
 
 During quality control, annotations should be reviewed for:
 
