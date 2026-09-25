@@ -1,12 +1,13 @@
-id,customer_message,intent,annotation_notes
-001,"Where is my order?",order_tracking,"Customer is asking for the current status or location of the order."
-002,"My package is three days late.",delivery_issue,"Customer is reporting a delayed delivery."
-003,"I want a refund for my purchase.",refund_request,"Customer explicitly requests a refund."
-004,"Please cancel my order.",cancellation,"Customer explicitly wants to cancel the order."
-005,"The product arrived broken.",product_complaint,"Customer is reporting a problem with the product itself."
-006,"Do you deliver on weekends?",general_question,"Customer is asking a general question about delivery service."
-007,"Can you tell me the status of my shipment?",order_tracking,"Customer wants to know the current status of the shipment."
-008,"My package still hasn't arrived.",delivery_issue,"Customer is reporting that the delivery has not arrived."
-009,"Can I get my money back?",refund_request,"Customer explicitly asks for their money back."
-010,"The item I received does not work.",product_complaint,"Customer is reporting that the product is defective."
+id,customer_message,intent,difficulty,annotation_notes
+001,"Where is my order?",order_tracking,easy,"Customer is asking for the current status or location of the order."
+002,"My package is three days late.",delivery_issue,easy,"Customer is reporting a delayed delivery."
+003,"I want a refund for my purchase.",refund_request,easy,"Customer explicitly requests a refund."
+004,"Please cancel my order.",cancellation,easy,"Customer explicitly wants to cancel the order."
+005,"The product arrived broken.",product_complaint,easy,"Customer is reporting a problem with the product itself."
+006,"Do you deliver on weekends?",general_question,easy,"Customer is asking a general question about delivery service."
+007,"Can you tell me the status of my shipment?",order_tracking,easy,"Customer wants to know the current status of the shipment."
+008,"My package still hasn't arrived.",delivery_issue,easy,"Customer is reporting that the delivery has not arrived."
+009,"Can I get my money back?",refund_request,easy,"Customer explicitly asks for their money back."
+010,"The item I received does not work.",product_complaint,easy,"Customer is reporting that the product is defective."
+
 
