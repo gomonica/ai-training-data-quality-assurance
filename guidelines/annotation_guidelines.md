@@ -123,7 +123,7 @@ Some messages may contain more than one possible intent.
 
 Example:
 
-"My package is late. Can I get a refund?"
+** "My package is late. Can I get a refund?" **
 
 Possible labels:
 
@@ -151,34 +151,34 @@ refund_request
 
 Annotators should:
 
-Read the entire customer message before assigning a label.
+- Read the entire customer message before assigning a label.
 
-Follow the definitions in this guideline.
+- Follow the definitions in this guideline.
 
-Avoid making assumptions about information that is not stated.
+- Avoid making assumptions about information that is not stated.
 
-Use the most specific applicable label.
+- Use the most specific applicable label.
 
-Flag unclear cases for review instead of guessing when the intent cannot be determined confidently.
+- Flag unclear cases for review instead of guessing when the intent cannot be determined confidently.
 
 ### 7. Quality Check
 
 During quality control, annotations should be reviewed for:
 
-Incorrect labels
+- Incorrect labels
 
-Inconsistent labeling
+- Inconsistent labeling
 
-Misinterpretation of customer intent
+- Misinterpretation of customer intent
 
-Confusion between similar categories
+- Confusion between similar categories
 
-Failure to follow the annotation rules
+- Failure to follow the annotation rules
 
 Examples of commonly confused categories include:
 
-order_tracking vs delivery_issue
+- order_tracking vs delivery_issue
 
-delivery_issue vs refund_request
+- delivery_issue vs refund_request
 
-product_complaint vs refund_request
+- product_complaint vs refund_request
